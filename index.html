@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        button {
+        margin: 5px;
+        padding: 10px;
+        font-size: 16px;
+        color: white;
+        }
+        #green {
+            background-color: green;
+        }
+        #blue {
+            background-color: blue;
+        }
+        #purple {
+            background-color: purple;
+        }
+        #orange {
+            background-color: orange;
+        }
+        .random {
+            background-color: rgb(255, 0, 0);
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+
+  
+
+    </style>
+</head>
+<body>
+    
+    <h2>Color</h2>
+    <button id="green" onclick="setColor('green')">green</button>
+    <button id="blue" onclick="setColor('blue')">blue</button>
+    <button id="purple" onclick="setColor('purple')">purple</button>
+    <button id="orange" onclick="setColor('orange')">orange</button>
+    <button onclick="randomColor()">random</button>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
